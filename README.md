@@ -24,7 +24,7 @@ Plus:
 ## Install
 
 ```bash
-git clone https://github.com/<you>/claude-second-brain.git ~/projects/brain-src
+git clone https://github.com/oridanus/claude-second-brain.git ~/projects/brain-src
 cd ~/projects/brain-src
 ./install.sh
 ```
