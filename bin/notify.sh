@@ -12,15 +12,15 @@ if command -v terminal-notifier &>/dev/null; then
     terminal-notifier \
       -title "$TITLE" \
       -message "$MSG" \
-      -sound Ping \
+      -sound Glass \
       -execute "$FOCUS_SCRIPT '$MATCH'"
   else
     terminal-notifier \
       -title "$TITLE" \
       -message "$MSG" \
-      -sound Ping \
+      -sound Glass \
       -activate com.googlecode.iterm2
   fi
 else
-  osascript -e "display notification \"$MSG\" with title \"$TITLE\" sound name \"Ping\""
+  osascript -e "display notification \"$MSG\" with title \"$TITLE\" sound name \"Glass\""
 fi
